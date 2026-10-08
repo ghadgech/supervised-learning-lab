@@ -45,17 +45,17 @@ You only need a free GitHub account.
 > Free accounts get a monthly Codespaces allowance. Stop the Codespace when you finish (**Codespaces → Stop**).
 
 ### Option B: Notebook in Google Colab
-Open the notebook in Colab: replace `<user>` and `<repo>` below with this repo's GitHub username and repository name, or on GitHub open the notebook and use the Colab link.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ghadgech/supervised-learning-lab/blob/main/Supervised_Learning_Pipeline.ipynb)
 
-`https://colab.research.google.com/github/<user>/<repo>/blob/main/Supervised_Learning_Pipeline.ipynb`
+Click the badge above to open the notebook in Colab.
 
 Run all cells (**Runtime → Run all**). The notebook asks for the technique and algorithm by prompt. Your Excel file appears in the `Output` folder in Colab's file panel (left side); right-click it to download.
 
 ## Getting started on your own computer
 
 ```bash
-git clone <your-repo-url>
-cd <repo-folder>
+git clone https://github.com/ghadgech/supervised-learning-lab.git
+cd supervised-learning-lab
 pip install -r requirements.txt
 ```
 
